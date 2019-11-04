@@ -27,7 +27,9 @@ Q2 - 고정 LED 없이 2개의 LED 단위로 1초 Counter 값 표시 : `00_00_00
 ![](https://github.com/ewhaqh9909/LogicDesign/blob/master/figs/practice06(WAVE).jpg)
 
 ### **FPGA 동작 사진 (3개- 일반, Q1, Q2)**
-`Please fill up your source`
+![](https://github.com/ewhaqh9909/LogicDesign/blob/master/figs/1.jpg)
+![](https://github.com/ewhaqh9909/LogicDesign/blob/master/figs/2.jpg)
+![](https://github.com/ewhaqh9909/LogicDesign/blob/master/figs/3.jpg)
 
 
 
