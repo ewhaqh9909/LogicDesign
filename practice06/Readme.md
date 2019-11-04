@@ -1,6 +1,8 @@
-
+`
 # Lab 06
+
 ## 실습 내용
+
 ### **7 – Segment Display Decoder (개별)**
 
 #### **Submodule 1** : 0~9의 값을 갖는 4bit 입력 신호를 받아 7bit FND  segment  값 출력	
@@ -12,10 +14,14 @@
 ### FPGA 실습 (팀) : 6개의 LED 중 가장 오른쪽 2개의 LED에 1초간격으로 0~59까지 증가하는 Counter 값 Display
 : NCO(Numerical Controlled Oscillator) 입력 바꿔서 4초 간격으로 증가하는 코드 테스트
 
-## 퀴즈 ### 아래 코드 일부를 수정하여 다음을 구하시오 ```verilog wire  [41:0] six_digit_seg; assign       six_digit_seg = { 4{7'b0000000}, seg_left, seg_right } ``` > Q1 - 고정 LED (왼쪽 4개) AAAA 출력 : `AA_AA_00`, `AA_AA_01`, `AA_AA_02`, … 순으로 LED 변경
-`wire  [41:0] six_digit_seg; assign       six_digit_seg = { 4{7'b1110111}, seg_left, seg_right }'
-> Q2 - 고정 LED 없이 2개의 LED 단위로 1초 Counter 값 표시 : `00_00_00`, `01_01_01`, `02_02_02`, … 순으로 LED 변경
-`wire  [41:0] six_digit_seg; assign       six_digit_seg = { 3{seg_left,seg_right}'
+## 퀴즈 ### 아래 코드 일부를 수정하여 다음을 구하시오
+<```verilog wire  [41:0] six_digit_seg; assign       six_digit_seg = { 4{7'b0000000}, seg_left, seg_right } ``` > 
+
+Q1 - 고정 LED (왼쪽 4개) AAAA 출력 : `AA_AA_00`, `AA_AA_01`, `AA_AA_02`, … 순으로 LED 변경
+<```wire  [41:0] six_digit_seg; assign       six_digit_seg = { 4{7'b1110111}, seg_left, seg_right }```> 
+
+Q2 - 고정 LED 없이 2개의 LED 단위로 1초 Counter 값 표시 : `00_00_00`, `01_01_01`, `02_02_02`, … 순으로 LED 변경
+<```wire  [41:0] six_digit_seg; assign       six_digit_seg = { 3{seg_left,seg_right}}```>
 
 ## 결과 ### **Top Module 의 DUT/TestBench Code 및 Waveform 검증**
 `Please fill up your source`
