@@ -24,7 +24,7 @@ Q2 - 고정 LED 없이 2개의 LED 단위로 1초 Counter 값 표시 : `00_00_00
 <```wire  [41:0] six_digit_seg; assign       six_digit_seg = { 3{seg_left,seg_right}}```>
 
 ## 결과 ### **Top Module 의 DUT/TestBench Code 및 Waveform 검증**
-`Please fill up your source`
+i[](https://github.com/ewhaqh9909/LogicDesign/blob/master/figs/practice06(WAVE).jpg)
 
 ### **FPGA 동작 사진 (3개- 일반, Q1, Q2)**
 `Please fill up your source`
