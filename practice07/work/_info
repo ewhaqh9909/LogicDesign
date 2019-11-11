@@ -1,0 +1,199 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vcontroller
+Z0 !s110 1573470473
+!i10b 1
+!s100 aoP4T0JmIn57cS5aQWihL2
+I>EY]YzaXh?VORd<;P:[cL3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/SM-PC/Desktop/project1810918/practice07
+Z3 w1573470469
+Z4 8C:\Users\SM-PC\Desktop\project1810918\practice07\practice07.v
+Z5 FC:\Users\SM-PC\Desktop\project1810918\practice07\practice07.v
+L0 248
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1573470473.000000
+Z8 !s107 C:\Users\SM-PC\Desktop\project1810918\practice07\practice07.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\SM-PC\Desktop\project1810918\practice07\practice07.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vdebounce
+R0
+!i10b 1
+!s100 Cj;C5hVfP]X?X:0[^Mdj>2
+I9a^hdnHd@_oKJm;YNk81@0
+R1
+R2
+R3
+R4
+R5
+L0 222
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdouble_fig_sep
+R0
+!i10b 1
+!s100 25maffV_:o1eK=d@JMh9c3
+I]dC8BG91=fDm=WbFQbFG92
+R1
+R2
+R3
+R4
+R5
+L0 86
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vfnd_dec
+R0
+!i10b 1
+!s100 3SEmc5=l9=lWi33e:AoOh2
+I]OIUIa27lCBn_gHH:R_<11
+R1
+R2
+R3
+R4
+R5
+L0 55
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vhms_cnt
+R0
+!i10b 1
+!s100 =@bA:C>=TIa;faQkcnd`G1
+IklB`[0MddG=H4F;9eo_ae0
+R1
+R2
+R3
+R4
+R5
+L0 189
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vled_disp
+R0
+!i10b 1
+!s100 Q<0`b_80:h6eNkIB`X@5T2
+I0X2CB9cmKzS?fW_[DEPHR3
+R1
+R2
+R3
+R4
+R5
+L0 104
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vminsec
+R0
+!i10b 1
+!s100 >08ii2U^6kjc`AWIO>ZiC2
+IK9GM_ChZOf=<g@A8M44kj2
+R1
+R2
+R3
+R4
+R5
+L0 360
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vnco
+R0
+!i10b 1
+!s100 <=A3<6l3:=LS>L^nk^HV^3
+ILZ=egU7[S@R>H4hTDSJSR3
+R1
+R2
+R3
+R4
+R5
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vtop_hms_clock
+R0
+!i10b 1
+!s100 =1zQ:XDISihM2;YMAd>a03
+IP=RCg[l:PEO<mbV^Lg3Fc3
+R1
+R2
+R3
+R4
+R5
+L0 396
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

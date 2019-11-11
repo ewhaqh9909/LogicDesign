@@ -1,0 +1,257 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'led_disp:led_disp_u_led_disp|cnt_common_node[1]'
+Slack : -9.329
+TNS   : -71.569
+
+Type  : Slow 1200mV 85C Model Setup 'controller:controller_u_ctrl|debounce:u2_debounce|dly1_sw'
+Slack : -2.913
+TNS   : -16.125
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -2.903
+TNS   : -244.057
+
+Type  : Slow 1200mV 85C Model Setup 'led_disp:led_disp_u_led_disp|nco:u_nco|o_gen_clk'
+Slack : -0.432
+TNS   : -1.191
+
+Type  : Slow 1200mV 85C Model Setup 'controller:controller_u_ctrl|nco:u0_nco|o_gen_clk'
+Slack : 0.061
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'controller:controller_u_ctrl|debounce:u0_debounce|dly1_sw'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'controller:controller_u_ctrl|debounce:u1_debounce|dly1_sw'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'led_disp:led_disp_u_led_disp|cnt_common_node[1]'
+Slack : -1.109
+TNS   : -10.388
+
+Type  : Slow 1200mV 85C Model Hold 'led_disp:led_disp_u_led_disp|nco:u_nco|o_gen_clk'
+Slack : -0.509
+TNS   : -1.296
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : -0.126
+TNS   : -0.193
+
+Type  : Slow 1200mV 85C Model Hold 'controller:controller_u_ctrl|nco:u0_nco|o_gen_clk'
+Slack : 0.016
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'controller:controller_u_ctrl|debounce:u0_debounce|dly1_sw'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'controller:controller_u_ctrl|debounce:u1_debounce|dly1_sw'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'controller:controller_u_ctrl|debounce:u2_debounce|dly1_sw'
+Slack : 0.577
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -102.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'controller:controller_u_ctrl|debounce:u2_debounce|dly1_sw'
+Slack : -1.000
+TNS   : -13.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'controller:controller_u_ctrl|nco:u0_nco|o_gen_clk'
+Slack : -1.000
+TNS   : -6.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'led_disp:led_disp_u_led_disp|nco:u_nco|o_gen_clk'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'controller:controller_u_ctrl|debounce:u0_debounce|dly1_sw'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'controller:controller_u_ctrl|debounce:u1_debounce|dly1_sw'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'led_disp:led_disp_u_led_disp|cnt_common_node[1]'
+Slack : 0.446
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'led_disp:led_disp_u_led_disp|cnt_common_node[1]'
+Slack : -8.340
+TNS   : -63.229
+
+Type  : Slow 1200mV 0C Model Setup 'controller:controller_u_ctrl|debounce:u2_debounce|dly1_sw'
+Slack : -2.501
+TNS   : -13.385
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -2.496
+TNS   : -211.761
+
+Type  : Slow 1200mV 0C Model Setup 'led_disp:led_disp_u_led_disp|nco:u_nco|o_gen_clk'
+Slack : -0.264
+TNS   : -0.718
+
+Type  : Slow 1200mV 0C Model Setup 'controller:controller_u_ctrl|nco:u0_nco|o_gen_clk'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'controller:controller_u_ctrl|debounce:u0_debounce|dly1_sw'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'controller:controller_u_ctrl|debounce:u1_debounce|dly1_sw'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'led_disp:led_disp_u_led_disp|cnt_common_node[1]'
+Slack : -0.955
+TNS   : -8.933
+
+Type  : Slow 1200mV 0C Model Hold 'led_disp:led_disp_u_led_disp|nco:u_nco|o_gen_clk'
+Slack : -0.474
+TNS   : -1.094
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : -0.116
+TNS   : -0.175
+
+Type  : Slow 1200mV 0C Model Hold 'controller:controller_u_ctrl|nco:u0_nco|o_gen_clk'
+Slack : 0.023
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'controller:controller_u_ctrl|debounce:u0_debounce|dly1_sw'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'controller:controller_u_ctrl|debounce:u1_debounce|dly1_sw'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'controller:controller_u_ctrl|debounce:u2_debounce|dly1_sw'
+Slack : 0.517
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -102.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'controller:controller_u_ctrl|debounce:u2_debounce|dly1_sw'
+Slack : -1.000
+TNS   : -13.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'controller:controller_u_ctrl|nco:u0_nco|o_gen_clk'
+Slack : -1.000
+TNS   : -6.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'led_disp:led_disp_u_led_disp|nco:u_nco|o_gen_clk'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'controller:controller_u_ctrl|debounce:u0_debounce|dly1_sw'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'controller:controller_u_ctrl|debounce:u1_debounce|dly1_sw'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'led_disp:led_disp_u_led_disp|cnt_common_node[1]'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'led_disp:led_disp_u_led_disp|cnt_common_node[1]'
+Slack : -5.001
+TNS   : -36.112
+
+Type  : Fast 1200mV 0C Model Setup 'controller:controller_u_ctrl|debounce:u2_debounce|dly1_sw'
+Slack : -1.236
+TNS   : -2.940
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.162
+TNS   : -90.120
+
+Type  : Fast 1200mV 0C Model Setup 'led_disp:led_disp_u_led_disp|nco:u_nco|o_gen_clk'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'controller:controller_u_ctrl|nco:u0_nco|o_gen_clk'
+Slack : 0.154
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'controller:controller_u_ctrl|debounce:u0_debounce|dly1_sw'
+Slack : 0.626
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'controller:controller_u_ctrl|debounce:u1_debounce|dly1_sw'
+Slack : 0.626
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'led_disp:led_disp_u_led_disp|cnt_common_node[1]'
+Slack : -0.681
+TNS   : -6.300
+
+Type  : Fast 1200mV 0C Model Hold 'led_disp:led_disp_u_led_disp|nco:u_nco|o_gen_clk'
+Slack : -0.321
+TNS   : -0.886
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.160
+TNS   : -0.277
+
+Type  : Fast 1200mV 0C Model Hold 'controller:controller_u_ctrl|nco:u0_nco|o_gen_clk'
+Slack : 0.013
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'controller:controller_u_ctrl|debounce:u0_debounce|dly1_sw'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'controller:controller_u_ctrl|debounce:u1_debounce|dly1_sw'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'controller:controller_u_ctrl|debounce:u2_debounce|dly1_sw'
+Slack : 0.310
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -108.146
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'controller:controller_u_ctrl|debounce:u2_debounce|dly1_sw'
+Slack : -1.000
+TNS   : -13.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'controller:controller_u_ctrl|nco:u0_nco|o_gen_clk'
+Slack : -1.000
+TNS   : -6.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'led_disp:led_disp_u_led_disp|nco:u_nco|o_gen_clk'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'controller:controller_u_ctrl|debounce:u0_debounce|dly1_sw'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'controller:controller_u_ctrl|debounce:u1_debounce|dly1_sw'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'led_disp:led_disp_u_led_disp|cnt_common_node[1]'
+Slack : 0.358
+TNS   : 0.000
+
+------------------------------------------------------------
