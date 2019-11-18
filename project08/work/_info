@@ -1,0 +1,220 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/SM-PC/Desktop/project1810918/practice07
+vbuzz
+Z0 !s110 1574070840
+!i10b 1
+!s100 IR=KPhgDi<X?Y68=VX;Ll1
+IllaKAl4K=gC:ncoM70NA90
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/SM-PC/Desktop/project1810918/project08
+Z3 w1574070038
+Z4 8C:\Users\SM-PC\Desktop\project1810918\project08\project08.v
+Z5 FC:\Users\SM-PC\Desktop\project1810918\project08\project08.v
+L0 529
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1574070840.000000
+Z8 !s107 C:\Users\SM-PC\Desktop\project1810918\project08\project08.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\SM-PC\Desktop\project1810918\project08\project08.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vcontroller
+R0
+!i10b 1
+!s100 QL39`jkBQR5fF_cV9jX_K2
+ITJYoGY<0Y8mQ8PdEzz:N]1
+R1
+R2
+R3
+R4
+R5
+L0 251
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdebounce
+R0
+!i10b 1
+!s100 gdAWgA:E11=g:R8Q6m:J?1
+IS0CJY@[2>G[3^5KT1ITK20
+R1
+R2
+R3
+R4
+R5
+L0 225
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdouble_fig_sep
+R0
+!i10b 1
+!s100 25maffV_:o1eK=d@JMh9c3
+In07WF<EzKBd^5GWJlC=MZ2
+R1
+R2
+R3
+R4
+R5
+L0 86
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vfnd_dec
+R0
+!i10b 1
+!s100 3SEmc5=l9=lWi33e:AoOh2
+I>aKSUlL>lAA_hON`ii3^V1
+R1
+R2
+R3
+R4
+R5
+L0 55
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vhms_cnt
+R0
+!i10b 1
+!s100 7jNm=]k>mRdDf5Mc2c3]=3
+IGcf=B_OGN:hag[HT::M8M3
+R1
+R2
+R3
+R4
+R5
+L0 192
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vled_disp
+R0
+!i10b 1
+!s100 CFoh917TJL12VTjgl@GG12
+IY:lm``S8BL:i=>PUSnoDE2
+R1
+R2
+R3
+R4
+R5
+L0 104
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vminsec
+R0
+!i10b 1
+!s100 @<FI[n;M^ghzn`6Ljzbjj3
+IAI790Nz=gF`E]JQjdm]B13
+R1
+R2
+R3
+R4
+R5
+L0 420
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vnco
+R0
+!i10b 1
+!s100 <=A3<6l3:=LS>L^nk^HV^3
+IzPO_3EHIX=lYK518_U5393
+R1
+R2
+R3
+R4
+R5
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vtop
+!s110 1574069512
+!i10b 1
+!s100 gaHW@C`eDJK9UnW9>c[Vo2
+IoL?Xf2WBmlgo;=h4obzZ11
+R1
+R2
+w1574069472
+R4
+R5
+L0 611
+R6
+r1
+!s85 0
+31
+!s108 1574069512.000000
+R8
+R9
+!i113 1
+R10
+R11
