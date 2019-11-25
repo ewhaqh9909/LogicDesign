@@ -18,7 +18,7 @@ seq_rx에 2'b01이면 cnt_l이 0, cnt_h이 0으로  2'b11 cnt_h이 이전 상태
 이후에 datacode는  seq_rx가 01일떄는  이전 상태의 cnt32에서 1 이 더해진 상황이 된다. 그게 아니라면 cnt32는 계속 유지된다. 그리고  cnt32가 32이상이고 cnt_l가 (1.69ms이상 유지될때 임으로) 어느정도 차이를 두어서 1000이상일때   state는 complete 이 되고 그게 아니라면 계속 datacode 로 유지되게 된다.
 
  또한 위의 datacode상태에서 cnt_l이 1000이상이라면 출력 data의 시작을 1으로 / 1000이상이 아니라면 0이 된다. 그리고 위에서 complete상태가 되었을때는  출력   data가 o_data로 진짜 output이 되게 된다.
- 
+ ![](wave09.png)
 
 ```verilog
 
@@ -398,5 +398,5 @@ led_disp		led_disp_u(
 endmodule
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwMjYyNzY2XX0=
+eyJoaXN0b3J5IjpbNjgzNzE0MDc5XX0=
 -->
