@@ -1,12 +1,33 @@
+#09 적외선 컨트롤러
+리모컨 송신은 일종의 통신이므로 그에 맞는 통신 규약에 따라야 한다.
+1) Leader Code : 프레임의 모드 선택 
+2) Custom Code : 특정 회사를 나타냄 
+3) Data Code : 송신 데이터 (데이터 확인 위해 보수 신호도 보냄)
 
+이번에 짜는 코드의 큰 틀은 Leader code는  9ms동안의 2'b11상태가 유지되고 4.5ms의 2'b00상태가 유지된다면 다음 상태로 넘어갈 수 있게 되고 datacode상태에서도 cnt32가 6'd32이면서 cnt_l가 1000이상일때 complete로 넘어갈 수 있게 되면서 출력값을 내게 되는 것이다.
 
+moduler ir_rx에서는 코드를 순서대로 해석해보면...
 
-> Written with [StackEdit](https://stackedit.io/).
-> module	nco(	
+IDLE는 처음상태를 나타내고  2'b00라고  parameter 로 명명한 것처럼 LEADCODE와 DATACODE와 COMPLETE를 할당해줬다.  
+이 모듈에서 리셋상황일떄 2'b00으로 그게 아니라면  seq_rx <= {seq_rx[0], ir_rx};으로 현재의 seq_rx는 이전의 seq_rx[0], ir_rx로 밀린다는 것을 의미하게 된다. 그래서 그래프가  01,11,10,00으로 나타나게 된다.
+
+여기에서 리셋상태가 아니라면 각 seq_rx에 2'b00이면 cnt_l이 이전 상태의 cnt_l에서 1이 더해진 상황이 되고 
+seq_rx에 2'b01이면 cnt_l이 0, cnt_h이 0으로  2'b11 cnt_h이 이전 상태의 cnt_h에서 1 이 더해진 상황이 된다.
+
+그리고  state상태를 나눠서 상황에 따라 결과를 다르게 해줬다. 앞서 parameter로 설정한 것들을 각각 IDLE일때는 cnt32가 0이되고 state 는 leadcode가 된다. cnt_h가 leader code의 9ms동안의 2'b11상태가 되도록 하는 것이므로 어느정도 차이를 두기위해 8500이상일때와  cnt_l이 leader code의 4.5ms의 00상태를 유지하는 상태로 어느정도 차이를 두고 4000이상일때 state가 datacode로 넘어가게 된다. 그게 아니라면 계속 leadcode 인 것이다. 
+이후에 datacode는  seq_rx가 01일떄는  이전 상태의 cnt32에서 1 이 더해진 상황이 된다. 그게 아니라면 cnt32는 계속 유지된다. 그리고  cnt32가 32이상이고 cnt_l가 (1.69ms이상 유지될때 임으로) 어느정도 차이를 두어서 1000이상일때   state는 complete 이 되고 그게 아니라면 계속 datacode 로 유지되게 된다.
+
+ 또한 위의 datacode상태에서 cnt_l이 1000이상이라면 출력 data의 시작을 1으로 / 1000이상이 아니라면 0이 된다. 그리고 위에서 complete상태가 되었을때는  출력   data가 o_data로 진짜 output이 되게 된다.
+ 
+
+```verilog
+
+module	nco(	
 		o_gen_clk,
 		i_nco_num,
 		clk,
-		rst_n);
+		rst_n);	
+		
 
 output		o_gen_clk	;	// 1Hz CLK
 
@@ -375,6 +396,7 @@ led_disp		led_disp_u(
 					.rst_n(rst_n));
 
 endmodule
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NjI2OTY0Ml19
+eyJoaXN0b3J5IjpbODEwMjYyNzY2XX0=
 -->
