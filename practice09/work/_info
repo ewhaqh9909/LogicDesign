@@ -1,0 +1,157 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/SM-PC/Desktop/project1810918/project08
+vdouble_fig_sep
+Z0 !s110 1574675498
+!i10b 1
+!s100 Kf^lOK^R;?EIWSIO3CND_0
+IEFN<PfRhK2@85Ug<d5CYC1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/SM-PC/Desktop/project1810918/practice09
+Z3 w1574675161
+Z4 8C:\Users\SM-PC\Desktop\project1810918\practice09\practice09.v
+Z5 FC:\Users\SM-PC\Desktop\project1810918\practice09\practice09.v
+L0 91
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1574675498.000000
+Z8 !s107 C:\Users\SM-PC\Desktop\project1810918\practice09\practice09.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\SM-PC\Desktop\project1810918\practice09\practice09.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vfnd_dec
+R0
+!i10b 1
+!s100 Dbb>W=cHGa;3<S2`<aazO2
+I:;k6dRf6Eaf6W51kDGFK;0
+R1
+R2
+R3
+R4
+R5
+L0 54
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vir_rx
+R0
+!i10b 1
+!s100 Kc0nlM@6z`F_C<l1Z6X0=1
+IZoXZ?2?zBoFg@22SX=mD;0
+R1
+R2
+R3
+R4
+R5
+L0 197
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vled_disp
+R0
+!i10b 1
+!s100 YEV;:Ac5zz=3YG9n>BKoP3
+I09dcI8kLc8@RA03_lP6if2
+R1
+R2
+R3
+R4
+R5
+L0 109
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vnco
+R0
+!i10b 1
+!s100 2hjeljO?ZoQ<lo47EnMz10
+I<?0PUN8k]l4aSijS8:ka;3
+R1
+R2
+R3
+R4
+R5
+L0 20
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vtb
+!s110 1574675499
+!i10b 1
+!s100 ^8XYDIZ78aj5PHDZ<BIOf3
+ICinNK_TLnSF;diO1_o78d3
+R1
+R2
+w1574667800
+8C:\Users\SM-PC\Desktop\project1810918\practice09\tb.v
+FC:\Users\SM-PC\Desktop\project1810918\practice09\tb.v
+L0 17
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:\Users\SM-PC\Desktop\project1810918\practice09\tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\SM-PC\Desktop\project1810918\practice09\tb.v|
+!i113 1
+R10
+R11
+vtop
+R0
+!i10b 1
+!s100 Uj;3S1Ih;E4MWD_Zk[OB@0
+IP;<K?aTTEk2LFOG=5M^he2
+R1
+R2
+R3
+R4
+R5
+L0 318
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -2.583
+TNS   : -145.198
+
+Type  : Slow 1200mV 85C Model Setup 'ir_rx:ir_rx_u_ir|nco:u_nco|o_gen_clk'
+Slack : -1.566
+TNS   : -96.251
+
+Type  : Slow 1200mV 85C Model Setup 'led_disp:led_disp_u|nco:u_nco|o_gen_clk'
+Slack : -0.148
+TNS   : -0.248
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : -0.313
+TNS   : -0.429
+
+Type  : Slow 1200mV 85C Model Hold 'ir_rx:ir_rx_u_ir|nco:u_nco|o_gen_clk'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'led_disp:led_disp_u|nco:u_nco|o_gen_clk'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -69.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ir_rx:ir_rx_u_ir|nco:u_nco|o_gen_clk'
+Slack : -1.000
+TNS   : -92.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'led_disp:led_disp_u|nco:u_nco|o_gen_clk'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -2.209
+TNS   : -125.312
+
+Type  : Slow 1200mV 0C Model Setup 'ir_rx:ir_rx_u_ir|nco:u_nco|o_gen_clk'
+Slack : -1.309
+TNS   : -76.602
+
+Type  : Slow 1200mV 0C Model Setup 'led_disp:led_disp_u|nco:u_nco|o_gen_clk'
+Slack : -0.034
+TNS   : -0.034
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : -0.262
+TNS   : -0.350
+
+Type  : Slow 1200mV 0C Model Hold 'ir_rx:ir_rx_u_ir|nco:u_nco|o_gen_clk'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'led_disp:led_disp_u|nco:u_nco|o_gen_clk'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -69.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ir_rx:ir_rx_u_ir|nco:u_nco|o_gen_clk'
+Slack : -1.000
+TNS   : -92.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'led_disp:led_disp_u|nco:u_nco|o_gen_clk'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.013
+TNS   : -49.512
+
+Type  : Fast 1200mV 0C Model Setup 'ir_rx:ir_rx_u_ir|nco:u_nco|o_gen_clk'
+Slack : -0.442
+TNS   : -15.872
+
+Type  : Fast 1200mV 0C Model Setup 'led_disp:led_disp_u|nco:u_nco|o_gen_clk'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.243
+TNS   : -0.402
+
+Type  : Fast 1200mV 0C Model Hold 'ir_rx:ir_rx_u_ir|nco:u_nco|o_gen_clk'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'led_disp:led_disp_u|nco:u_nco|o_gen_clk'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -72.841
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ir_rx:ir_rx_u_ir|nco:u_nco|o_gen_clk'
+Slack : -1.000
+TNS   : -92.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'led_disp:led_disp_u|nco:u_nco|o_gen_clk'
+Slack : -1.000
+TNS   : -3.000
+
+------------------------------------------------------------

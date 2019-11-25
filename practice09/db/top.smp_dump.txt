@@ -1,0 +1,7 @@
+
+State Machine - |top|ir_rx:ir_rx_u_ir|state
+Name state.COMPLETE state.DATACODE state.LEADCODE state.IDLE 
+state.IDLE 0 0 0 0 
+state.LEADCODE 0 0 1 1 
+state.DATACODE 0 1 0 1 
+state.COMPLETE 1 0 0 1 
